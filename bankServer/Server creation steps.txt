@@ -1,0 +1,45 @@
+Server Creation Using NODE JS,its framework Express JS
+Server Creation Steps:-
+
+1.Create package.json file
+  1.1 Open CMD from the newly created folder
+  1.2 Enter command "npm init",and enter all details and most things are optional just press enter key and type "yes" and press enter
+  1.3 open it in VS Code
+  1.4 Create a entry point file named "index.js"
+2.Install Express Js using command "npm i express"
+3.Import Express inside index.js file
+  3.1 const express=require('express') using this code
+4.Create server app using express
+  4.1 just give a name to app ,here the name is "app" - const app = express();
+5.Set up port for server app- appname.listen(portnum),app.listen(3000)
+6.To start server use "node index.js" command in cmd
+7.To resolve request from client(request be a http or https request and the request is transfered through a API)
+    HTTP Response Status Codes
+      1xx - Information
+      2xx - Success
+      3xx - Redirection
+      4xx - Client Error
+      5xx - Server Error
+8.To connect Mongo DB with server
+  8.1-using Mongoose Library- npm i mongoose
+9.API Call - Asynchronous - to resolve use promise 
+      -resolve state - .then()
+      -reject state - .catch()
+10.cors(Cross Origin Resource Sharing)-to tranfer data from one port to another(3000=4200)
+      -Install cors:npm i cors
+      -Import cors in index.js
+      -use cors inside the server app to define the origin
+11 JSON Web Token - To authenticate request
+      -Install jsonwebtoken : npm i jsonwebtoken
+      -import jsonwebtoken into dataservice.js
+      -while login successful generate token - sign()
+      -to send the token into client(frontend)
+   
+      -client will sent token along with request after login
+      -verify token which is available in index.js
+        -import jsonwebtoken in index.js
+        -verify the token -verify() before resolving client request
+12. Middleware - special function (req,res,next),mainly for authentication =>it can affect response cycle
+      -Application specific Middleware
+      -Router specific Middleware
+
