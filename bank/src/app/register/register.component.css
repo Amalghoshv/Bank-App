@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&family=Open+Sans:wght@500&family=Rajdhani:wght@500&family=Roboto+Mono:ital@1&family=Sora&family=Zen+Dots&family=Zilla+Slab:ital,wght@1,300&display=swap');
+.col-4{
+    font-family: 'Jost', sans-serif;
+}
+button{
+    font-weight: bold;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+}
+.border{
+    border-radius: 10%;
+}

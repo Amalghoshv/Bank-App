@@ -1,0 +1,22 @@
+<h1 class="text-center mt-3 text-info ">Transaction History</h1>
+<div class="container">
+<table class="table  ">
+    <thead>
+        <tr >
+            <th>No</th>
+            <th>Type of Transaction</th>
+            <th>Amount</th>
+            
+        </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let trans of transactions; let i=index">
+            <td >{{i+1}}</td>
+            <td>{{trans.type}}</td>
+            <td>{{trans.amount}}</td>
+            
+        </tr>
+    </tbody>
+</table>
+</div>
+<a class routerLink="/dash" >Home</a>

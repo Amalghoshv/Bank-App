@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&family=Open+Sans:wght@500&family=Rajdhani:wght@500&family=Roboto+Mono:ital@1&family=Sora&family=Zen+Dots&family=Zilla+Slab:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+}
+.col-6{
+    font-family: 'Jost', sans-serif;
+}
+button{
+    font-weight: bold;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+}
+h4{
+    font-weight: bold;
+}
+.border{
+    border-radius: 5%;
+}
+h3{
+    color: teal;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.nav-link{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+.cc{
+    opacity: 10%;
+}

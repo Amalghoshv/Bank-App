@@ -1,0 +1,14 @@
+.table{
+    border: solid 1px black;
+    margin: 5px;
+    width:95%
+    
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-left: 50%;
+    text-decoration: none;
+    color: darkgreen;
+    padding-top: 20px;
+}
